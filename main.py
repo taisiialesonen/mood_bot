@@ -46,7 +46,7 @@ async def cmd_start(message: types.Message):
 async def send_mood(message: types.Message, mood_key: str):
     """Отправляет картинку + описание + треки."""
     text = format_playlist(mood_key)
-    photo_path = f"images/{mood_key}.jpg"
+    photo_path = f"images/{mood_key}.jpeg"
 
     if os.path.exists(photo_path):
         photo = FSInputFile(photo_path)
