@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# PyCharm
+.idea/
+
+# Secrets (ВАЖНО!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
